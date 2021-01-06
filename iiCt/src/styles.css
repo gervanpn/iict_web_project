@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/* Site Colors */
+.prime-grey {
+    color: gray;
+}
+
+.prime-orange {
+    color: orange;
+}
+
+.logo-orange {
+    color: orangered;
+}
+
+.prime-white {
+    color: whitesmoke;
+}
