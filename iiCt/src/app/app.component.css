@@ -1,0 +1,20 @@
+.inner-triangle{
+    border-left: 40rem solid transparent;
+    border-right: 40rem solid orange;
+    border-bottom: 40rem solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+}
+.inner-triangle-bottom{
+    border-right: 40rem solid transparent;
+    border-bottom: 40rem solid orange;
+    border-top: 40rem solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+}
