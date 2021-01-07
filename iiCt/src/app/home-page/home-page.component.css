@@ -5,3 +5,9 @@
 .padding{
     padding-bottom: 40rem;
 }
+
+.big-logo {
+    padding-top: 12rem;
+    width: 25%;
+    border-radius: 1px;
+}
