@@ -3,11 +3,12 @@
     justify-content: center;
 }
 .padding{
-    padding-bottom: 40rem;
+    padding-bottom: 30.1rem;
 }
 
 .big-logo {
-    padding-top: 12rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
     width: 25%;
-    border-radius: 1px;
+    
 }

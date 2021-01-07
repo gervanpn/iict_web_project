@@ -15,6 +15,32 @@
     color: whitesmoke;
 }
 
-.background {
+.background-dark {
     background-color: #545454;
+}
+
+.background-light {
+    background-color: whitesmoke;
+}
+
+.triangle-top {
+    /* border-left: 30rem solid transparent; */
+    border-right: 40rem solid #ff914d;
+    border-bottom: 40rem solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+}
+.triangle-bottom  {
+    margin-top: -40rem;
+    border-right: 40rem solid transparent;
+    border-bottom: 40rem solid #ff914d;
+    /* border-top: -30rem solid transparent; */
+    height: 0;
+    width: 0;
+    position: relative;
+    left: 0px;
+    z-index: 2;
 }

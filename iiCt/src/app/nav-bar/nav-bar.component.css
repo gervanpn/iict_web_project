@@ -1,9 +1,9 @@
 .ui.secondary.menu .item {
     font-size: 22px;
     font-weight: 500;
-    color: whitesmoke;
+    color: #545454;
     z-index: 2;
-    width: 120px;
+    width: 110px;
 }
 
 .logo {
