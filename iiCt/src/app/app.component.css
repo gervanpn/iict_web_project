@@ -1,6 +1,6 @@
 .inner-triangle{
     border-left: 40rem solid transparent;
-    border-right: 40rem solid orange;
+    border-right: 40rem solid #ff914d;
     border-bottom: 40rem solid transparent;
     height: 0;
     width: 0;
@@ -10,7 +10,7 @@
 }
 .inner-triangle-bottom{
     border-right: 40rem solid transparent;
-    border-bottom: 40rem solid orange;
+    border-bottom: 40rem solid #ff914d;
     border-top: 40rem solid transparent;
     height: 0;
     width: 0;
