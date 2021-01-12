@@ -23,6 +23,23 @@
     background-color: whitesmoke;
 }
 
+.background-orange {
+  background-color: #ff914d;
+}
+
+.page-space {
+  padding-bottom: 1rem;
+}
+
+.next-page {
+  display: flex;
+}
+
+.divided-page {
+  display: flex;
+  height: 600px;
+}
+
 .triangle-top {
     /* border-left: 30rem solid transparent; */
     border-right: 30rem solid #ff914d;
@@ -44,6 +61,11 @@
     position: relative;
     left: 0px;
     z-index: 2;
+}
+
+.iiCt-logo {
+  width: 20%;
+  padding-top: 1.25rem;
 }
 
 .popup-box {

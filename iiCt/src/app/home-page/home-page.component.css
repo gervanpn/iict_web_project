@@ -10,5 +10,16 @@
     padding-top: 15rem;
     padding-bottom: 15rem;
     width: 25%;
-    
+}
+
+.values-format {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 5rem;
+}
+
+.values-position {
+  margin-top: 10rem;
+  margin-left: 10rem;
+
 }
