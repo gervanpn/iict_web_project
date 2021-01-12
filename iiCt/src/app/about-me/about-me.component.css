@@ -1,0 +1,39 @@
+.vertical-spacing {
+  display: inline-block;
+  align-items: center;
+}
+
+.atr-fonts {
+  font-size: 1.5rem;
+}
+
+.right-images {
+  width: 90%;
+  /* padding-top: 1.25rem; */
+  margin-right: -14rem;
+}
+
+.left-li-image {
+  width: 15%;
+  padding-top: 2.1rem;
+  padding-left: 2rem;
+  margin-right: -14rem;
+}
+
+.left-title {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+hr {
+  height: 10px;
+  width: 400px;
+  margin-left: -1.1rem;
+  border-width: 10px;
+  border-color: #545454;
+  margin-top: 10px;
+}
+
+.move-down {
+  margin-top: 190px;
+}
