@@ -7,10 +7,18 @@
   font-size: 1.5rem;
 }
 
-.right-images {
+.right-image-svg {
   width: 90%;
-  /* padding-top: 1.25rem; */
   margin-right: -14rem;
+}
+
+.right-image-png {
+  width: 12%;
+  margin-left: -10px;
+}
+
+.right-text {
+  margin-left: -69rem;
 }
 
 .left-li-image {
