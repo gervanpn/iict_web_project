@@ -25,22 +25,59 @@
 
 .triangle-top {
     /* border-left: 30rem solid transparent; */
-    border-right: 40rem solid #ff914d;
-    border-bottom: 40rem solid transparent;
+    border-right: 30rem solid #ff914d;
+    border-bottom: 30rem solid transparent;
     height: 0;
     width: 0;
     position: absolute;
-    right: 0px;
+    right: 8.8%;
     z-index: 2;
 }
+
 .triangle-bottom  {
-    margin-top: -40rem;
-    border-right: 40rem solid transparent;
-    border-bottom: 40rem solid #ff914d;
+    margin-top: -30rem;
+    border-right: 30rem solid transparent;
+    border-bottom: 30rem solid #ff914d;
     /* border-top: -30rem solid transparent; */
     height: 0;
     width: 0;
     position: relative;
     left: 0px;
     z-index: 2;
+}
+
+.popup-box {
+  min-width: 600px;
+  font-size: 1.25rem;
+  display: block;
+  border-radius: 4px;
+  border: 4px solid #ff914d;
+  position: center;
+  box-shadow: 0 0 0 1500px rgba(0, 0, 0, 0.8);
+  opacity: 1.0;
+  padding: 10px;
+  height: 500px;
+  right: 250px;
+  bottom: 200px;
+  background-color: #545454;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.term-text {
+  font-size: 1.25rem;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.term-heading {
+  margin-left: 15rem;
+  font:   normal bold  "Roboto-Thin", sans-serif
+}
+
+.term-margin-left{
+  margin-left: 1.75rem;
 }
