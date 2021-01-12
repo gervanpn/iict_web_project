@@ -3,29 +3,39 @@
   align-items: center;
 }
 
-.atr-fonts {
+.body-fonts {
   font-size: 1.5rem;
+  font-weight: 300;
+  width: 300px;
+  margin-left: -5rem;
 }
 
-.right-image-svg {
-  width: 90%;
-  margin-right: -14rem;
+.title-fonts {
+  /* font-size: 1.5rem;
+  font-weight: 300;
+  width: 300px; */
+  margin-left: -5rem;
 }
 
 .right-image-png {
-  width: 12%;
+  width: 50%;
   margin-left: -10px;
+  margin-right: -10px;
 }
 
-.right-text {
+/* .right-text {
   margin-left: -69rem;
-}
+} */
 
 .left-li-image {
   width: 12%;
   padding-top: 3rem;
   padding-left: 2rem;
   margin-right: -14rem;
+}
+
+.left-one {
+  margin-right: -2rem;
 }
 
 .left-title {
