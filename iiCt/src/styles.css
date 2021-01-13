@@ -15,6 +15,12 @@
     color: whitesmoke;
 }
 
+.background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .background-dark {
     background-color: #545454;
 }
@@ -25,6 +31,10 @@
 
 .background-orange {
   background-color: #ff914d;
+}
+
+.bgimg-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)), url('/iiCt/src/assets/images/contact_us1.jpg');
 }
 
 .page-space {
