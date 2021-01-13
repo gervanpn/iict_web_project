@@ -37,3 +37,9 @@
 .store-img {
   margin-top: -30px;
 }
+
+hr {
+  width: 95%;
+  border-width: 3px;
+  border-color: #ff914d;;
+}
