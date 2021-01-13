@@ -13,12 +13,12 @@
 }
 
 .img-greyed-out {
-  filter: grayscale(100);
+  filter: grayscale();
   padding-top: 20px;
   width: 3rem;
 }
 
-.img-greyed-out :hover {
+.img-greyed-out:hover {
   filter: none;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .bottom-padding {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .dropdown-toggle::after {
@@ -35,11 +35,11 @@
 }
 
 .store-img {
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 hr {
   width: 95%;
   border-width: 3px;
-  border-color: #ff914d;;
+  border-color: #ff914d;
 }
