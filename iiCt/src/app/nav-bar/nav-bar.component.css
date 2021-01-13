@@ -6,6 +6,10 @@
     width: 110px;
 }
 
+.ui.secondary.menu .item:hover {
+  color: #ff914d;
+}
+
 .logo {
     font-size: 25px;
     border-radius: 1px;

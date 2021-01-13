@@ -50,6 +50,10 @@
   height: 600px;
 }
 
+.nav a:hover {
+  color: red;
+}
+
 .triangle-top {
     /* border-left: 30rem solid transparent; */
     border-right: 30rem solid #ff914d;
