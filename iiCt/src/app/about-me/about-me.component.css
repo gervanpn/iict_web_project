@@ -22,10 +22,17 @@
 }
 
 .left-li-image {
-  width: 12%;
-  padding-top: 3rem;
+  width: 25%;
+  padding-top: 3.6rem;
   padding-left: 2rem;
-  margin-right: -14rem;
+  margin-right: -31rem;
+}
+
+.left-li-image:hover {
+  width: 25%;
+  padding-top: 3.5rem;
+  padding-left: 2rem;
+  margin-right: -30rem;
 }
 
 .left-title {
