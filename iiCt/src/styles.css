@@ -33,6 +33,10 @@
   background-color: #ff914d;
 }
 
+.background-clear {
+  background-color: transparent;
+}
+
 .bgimg-contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)), url('/iiCt/src/assets/images/contact_us1.jpg');
 }
@@ -48,10 +52,6 @@
 .divided-page {
   display: flex;
   height: 600px;
-}
-
-.nav a:hover {
-  color: red;
 }
 
 .triangle-top {
