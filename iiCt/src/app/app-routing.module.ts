@@ -41,6 +41,11 @@ const routes: Routes = [
     path: '**',
     redirectTo: '/home-page',
     pathMatch: 'full'
+  },
+  {
+    path: '',
+    redirectTo: '/home-page',
+    pathMatch: 'full'
   }
 ];
 
