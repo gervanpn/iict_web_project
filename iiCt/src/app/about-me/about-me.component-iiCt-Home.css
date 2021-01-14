@@ -1,0 +1,54 @@
+.vertical-spacing {
+  display: inline-block;
+  align-items: center;
+}
+
+.atr-fonts {
+  font-size: 1.5rem;
+}
+
+.right-image-svg {
+  width: 90%;
+  margin-right: -14rem;
+}
+
+.right-image-png {
+  width: 12%;
+  margin-left: -10px;
+}
+
+.right-text {
+  margin-left: -69rem;
+}
+
+.left-li-image {
+  width: 25%;
+  padding-top: 3.6rem;
+  padding-left: 2rem;
+  margin-right: -31rem;
+}
+
+.left-li-image:hover {
+  width: 25%;
+  padding-top: 3.5rem;
+  padding-left: 2rem;
+  margin-right: -30rem;
+}
+
+.left-title {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+hr {
+  height: 10px;
+  width: 400px;
+  margin-left: -1.1rem;
+  border-width: 10px;
+  border-color: #545454;
+  margin-top: 10px;
+}
+
+.move-down {
+  margin-top: 190px;
+}
