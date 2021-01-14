@@ -41,6 +41,10 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)), url('/iiCt/src/assets/images/contact_us1.jpg');
 }
 
+.bgimg-corners {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)), url('/iiCt/src/assets/images/iict_dt-corners.png');
+}
+
 .page-space {
   padding-bottom: 1rem;
 }
