@@ -43,3 +43,14 @@ hr {
   border-width: 3px;
   border-color: #ff914d;
 }
+
+.bg-rnd-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+ }
+
+ .bg-rnd-btm {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+ }
+
