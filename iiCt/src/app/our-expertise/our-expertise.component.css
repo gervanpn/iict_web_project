@@ -27,3 +27,11 @@ h6 {
   padding-bottom: 1rem;
   font:   normal bold  "Roboto-Thin", sans-serif
 }
+
+.chart-image {
+  width: 75%;
+  margin-top: -19.5rem;
+  margin-left: 11.5rem;
+  z-index: -10;
+  opacity: 35%;
+}
