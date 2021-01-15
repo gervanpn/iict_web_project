@@ -42,7 +42,7 @@
 }
 
 .bgimg-corners {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)), url('/iiCt/src/assets/images/iict_dt-corners.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/iiCt/src/assets/images/iict_dt-corners.png');
 }
 
 .page-space {
@@ -57,6 +57,17 @@
   display: flex;
   height: 600px;
 }
+
+.disp-vert {
+  display: block;
+}
+
+.disp-fullpage {
+  display: block;
+  height: 600px;
+}
+
+
 
 .triangle-top {
     /* border-left: 30rem solid transparent; */
@@ -84,6 +95,11 @@
 .iiCt-logo {
   width: 20%;
   padding-top: 1.25rem;
+}
+
+.iiCt-logo-extra {
+  width: 25%;
+  padding-top: 2.5rem;
 }
 
 .popup-box {
