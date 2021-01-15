@@ -44,6 +44,17 @@
   border-width: 3px;
 }
 
+.bg-rnd-trbl {
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+ }
+
+ .bg-rnd-right {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+ }
+
+
 .bgimg-contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)), url('/iiCt/src/assets/images/contact_us1.jpg');
 }
