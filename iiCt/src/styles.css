@@ -37,6 +37,13 @@
   background-color: transparent;
 }
 
+.background-boxed {
+  background-color: transparent;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 3px;
+}
+
 .bgimg-contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)), url('/iiCt/src/assets/images/contact_us1.jpg');
 }
