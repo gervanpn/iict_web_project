@@ -36,6 +36,7 @@
 }
 
 .left-title {
+  margin-top: 3rem;
   font-weight: bolder;
   font-size: 4rem;
 }
@@ -51,4 +52,11 @@ hr {
 
 .move-down {
   margin-top: 190px;
+}
+
+.left-image-png {
+  align-items: center;
+  width: 75%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
