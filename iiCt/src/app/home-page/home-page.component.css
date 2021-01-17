@@ -3,5 +3,39 @@
     justify-content: center;
 }
 .padding{
-    padding-bottom: 40rem;
+    padding-bottom: 30.1rem;
+}
+
+.big-logo {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    width: 25%;
+}
+
+h1 {
+  z-index: 100;
+}
+
+.values-format {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 5rem;
+}
+
+/* .values-position_l {
+  justify-content: top;
+  margin-top: 7rem;
+  margin-left: 12rem;
+} */
+
+.values-position_r {
+  margin-top: -29rem;
+  margin-left: -46rem;
+}
+
+.values-image {
+  width: 125%;
+  padding-top: 9rem;
+  margin-left: -22rem;
+  z-index: -10;
 }
