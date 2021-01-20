@@ -15,6 +15,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { PrivacyComponent } from './footer/privacy/privacy.component';
 import { TermsComponent } from './footer/terms/terms.component';
 import { FormsModule } from '@angular/forms';
+import { StudiesComponent } from './about-me/studies/studies.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     ContactUsComponent,
     AboutMeComponent,
     PrivacyComponent,
-    TermsComponent
+    TermsComponent,
+    StudiesComponent
   ],
   imports: [
     BrowserModule,
