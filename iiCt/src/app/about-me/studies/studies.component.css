@@ -10,7 +10,15 @@ h6 {
 
 .serve-images {
   width: 50%;
-  margin-left: 5rem;
+  margin-top: 1.7rem;
+  margin-left: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.serve-image1 {
+  width: 50%;
+  margin-left: 8rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -36,4 +44,48 @@ h6 {
   margin-left: 11.5rem;
   z-index: -10;
   opacity: 35%;
+}
+
+.logo-extra {
+  width: 75%;
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+
+.arrows {
+  width: 25%;
+  margin-top: 4.5rem;
+  margin-left: 5rem;
+
+}
+
+.arrows:hover {
+  width: 26%;
+  margin-top: 4.6rem;
+  margin-left: 5.1rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: white;
+  color: #545454;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: -5px;
+  left: 105%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
