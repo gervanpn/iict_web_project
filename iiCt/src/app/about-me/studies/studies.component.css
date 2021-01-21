@@ -49,6 +49,7 @@ h6 {
 .logo-extra {
   width: 75%;
   margin-top: 3rem;
+  margin-left: 4rem;
 }
 
 .arrows {
@@ -62,4 +63,29 @@ h6 {
   width: 26%;
   margin-top: 4.6rem;
   margin-left: 5.1rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: white;
+  color: #545454;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: -5px;
+  left: 105%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
