@@ -12,6 +12,10 @@ import { OurExpertiseComponent } from './our-expertise/our-expertise.component';
 import { ProjectWorkComponent } from './project-work/project-work.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { PrivacyComponent } from './footer/privacy/privacy.component';
+import { TermsComponent } from './footer/terms/terms.component';
+import { FormsModule } from '@angular/forms';
+import { StudiesComponent } from './about-me/studies/studies.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +28,15 @@ import { AboutMeComponent } from './about-me/about-me.component';
     OurExpertiseComponent,
     ProjectWorkComponent,
     ContactUsComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    PrivacyComponent,
+    TermsComponent,
+    StudiesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
