@@ -10,7 +10,15 @@ h6 {
 
 .serve-images {
   width: 50%;
-  margin-left: 5rem;
+  margin-top: 1.7rem;
+  margin-left: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.serve-image1 {
+  width: 50%;
+  margin-left: 8rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -36,4 +44,22 @@ h6 {
   margin-left: 11.5rem;
   z-index: -10;
   opacity: 35%;
+}
+
+.logo-extra {
+  width: 75%;
+  margin-top: 3rem;
+}
+
+.arrows {
+  width: 25%;
+  margin-top: 4.5rem;
+  margin-left: 5rem;
+
+}
+
+.arrows:hover {
+  width: 26%;
+  margin-top: 4.6rem;
+  margin-left: 5.1rem;
 }
