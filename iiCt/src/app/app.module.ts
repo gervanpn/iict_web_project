@@ -21,6 +21,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     AboutMeComponent,
     PrivacyComponent,
     TermsComponent,
-    StudiesComponent
+    StudiesComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
