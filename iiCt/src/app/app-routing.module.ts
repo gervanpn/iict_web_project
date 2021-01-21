@@ -8,6 +8,7 @@ import { OurExpertiseComponent } from './our-expertise/our-expertise.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { ProjectWorkComponent } from './project-work/project-work.component';
 import { StudiesComponent } from './about-me/studies/studies.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'studies',
     component: StudiesComponent
+  },
+  {
+    path: 'sign-in',
+    component: SignInComponent
   },
   {
     path: '**',
