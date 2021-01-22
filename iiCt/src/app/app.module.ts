@@ -22,6 +22,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { UserAuthserviceService } from './services/user-authservice.service';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
     AngularFireDatabaseModule,
     AngularFirestoreModule,
   ],
-  providers: [],
+  providers: [UserAuthserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
