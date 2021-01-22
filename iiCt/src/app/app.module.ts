@@ -15,6 +15,13 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { PrivacyComponent } from './footer/privacy/privacy.component';
 import { TermsComponent } from './footer/terms/terms.component';
 import { FormsModule } from '@angular/forms';
+import { StudiesComponent } from './about-me/studies/studies.component';
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -29,12 +36,18 @@ import { FormsModule } from '@angular/forms';
     ContactUsComponent,
     AboutMeComponent,
     PrivacyComponent,
-    TermsComponent
+    TermsComponent,
+    StudiesComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
+    AngularFireDatabaseModule,
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

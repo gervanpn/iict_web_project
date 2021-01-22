@@ -7,6 +7,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { OurExpertiseComponent } from './our-expertise/our-expertise.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { ProjectWorkComponent } from './project-work/project-work.component';
+import { StudiesComponent } from './about-me/studies/studies.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 const routes: Routes = [
   {
@@ -36,6 +38,14 @@ const routes: Routes = [
   {
     path: 'project-work',
     component: ProjectWorkComponent
+  },
+  {
+    path: 'studies',
+    component: StudiesComponent
+  },
+  {
+    path: 'sign-in',
+    component: SignInComponent
   },
   {
     path: '**',

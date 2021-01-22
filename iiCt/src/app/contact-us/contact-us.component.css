@@ -1,6 +1,15 @@
-.bgimg-contact{
+.bgimg-contact {
   background-image: url(src/assets/images/contact_us1.jpg);
 }
+
+a {
+  text-decoration-style: none;
+}
+
+.btn_space {
+  margin-left: 8rem;
+}
+
 h1 {
   padding-top: 50px;
 }
