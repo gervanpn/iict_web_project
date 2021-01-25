@@ -8,6 +8,7 @@ export const environment = {
     apiKey: "AIzaSyAOFhS7b_IhABPv6_usEdy-Dj0x5_jBRU4",
     authDomain: "iictfocus.firebaseapp.com",
     projectId: "iictfocus",
+    databaseURL: "https://iictfocus.firebaseio.com",
     storageBucket: "iictfocus.appspot.com",
     messagingSenderId: "348533843671",
     appId: "1:348533843671:web:0a84fc3958a78b2d5c7292",
