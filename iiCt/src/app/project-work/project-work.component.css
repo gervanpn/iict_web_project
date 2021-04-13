@@ -23,12 +23,6 @@
   margin-right: -10px;
 }
 
-.right-image-gif {
-  width: 30%;
-  margin-left: -5px;
-  margin-right: -10rem;
-}
-
 .left-image-png {
   width: 25%;
   padding-top: 20px;
@@ -48,10 +42,6 @@
 
 .left-one {
   margin-right: -2rem;
-}
-
-.left-two {
-  margin-left: -20rem;
 }
 
 .left-space {
