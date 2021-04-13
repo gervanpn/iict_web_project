@@ -1,8 +1,9 @@
+import { isPlatformBrowser } from '@angular/common';
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import { User } from '../interfaces/user';
+import { User } from '@firebase/auth-types';
 import { map } from 'rxjs/operators';
 import { UserAuthserviceService } from './user-authservice.service';
 

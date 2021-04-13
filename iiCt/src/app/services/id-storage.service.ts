@@ -12,7 +12,7 @@ export class IdStorageService {
   }
   
   getUId(): string {
-		return sessionStorage.getItem('uid');
+    return JSON.parse(sessionStorage.getItem('uid') || '{}')
   }
   
   setloggedIn(isloggedin:string) {
@@ -20,6 +20,6 @@ export class IdStorageService {
   }
   
   getUloggedIn(): string {
-		return sessionStorage.getItem('isloggedin')
+    return JSON.parse(sessionStorage.getItem('isloggedin') || '{}')
 	}
 }
