@@ -13,7 +13,6 @@ import { UserInfoService } from './user-info.service';
 export class UserAuthserviceService {
   user!: User;
   userInfo = {} as UserInfoService;
-  currentUser: any;
   
   constructor( public afs: AngularFirestore, 
     public afAuth: AngularFireAuth, 
@@ -31,23 +30,30 @@ export class UserAuthserviceService {
     
   async login(email: string, password: string) {
     var result = await this.afAuth.signInWithEmailAndPassword(email, password)
-    this.idstorage.setloggedIn("true")
-    this.router.navigate(['about-me']);
-    let uid = this.user.uid
-    console.log("uid after login",uid)
-    this.idstorage.setUid(uid)
+    var uid = result.user?.uid
+    if (uid == undefined){
+      console.log("function does not work")
+    }else{
+      this.idstorage.setloggedIn("true")
+      this.router.navigate(['about-me']);
+      console.log("uid after login",uid)
+      this.idstorage.setUid(uid)
+    }
   }
     
   async register(email: string, password: string, fname:string,
     lname: string, phone:string, city:string) {
     localStorage.removeItem('user');
     var result = await this.afAuth.createUserWithEmailAndPassword(email, password)
-    var uid = this.user.uid
-    console.log("uid after signup",uid)
-    this.idstorage.setUid(uid)
-    this.idstorage.setloggedIn("true")
-    this.router.navigate(['about-me']);
-    this.updateUserInfo(email,uid,fname,lname,phone,city)
+    var uid = result.user?.uid
+    if (uid == undefined){
+      console.log("function does not work")
+    }else{
+      this.idstorage.setUid(uid)
+      this.idstorage.setloggedIn("true")
+      this.router.navigate(['about-me']);
+      this.updateUserInfo(email,uid,fname,lname,phone,city)
+    } 
   }
 
 

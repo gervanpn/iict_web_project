@@ -6,9 +6,17 @@
           <!-- <a routerLink="sign-in" >
             Sign-In
           </a> -->
-          <a routerLink="/sign-in" class="col-md-4 term-margin-left prime-white">
+          <a routerLink="/sign-in" class="col-md-4 term-margin-left prime-white" *ngIf="isLoggedIn$=='false'; else notLoggedIn">
             Sign-In
-         </a>
+          </a>
+          <ng-template #notLoggedIn>
+            <a routerLink="home" class="col-md-4 term-margin-left prime-white" (click)="userauthService.logout()"(click)="reload()">
+             Sign-Out
+            </a>
+          </ng-template>
+          <!-- <a routerLink="/sign-in" class="col-md-4 term-margin-left prime-white">
+            Sign-In
+         </a> -->
           <a href (click)="(false)" class="term-margin-left prime-white" ngbDropdownToggle>
             Privacy Notice
           </a>
