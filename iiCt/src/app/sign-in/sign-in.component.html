@@ -5,10 +5,111 @@
         <img class="iiCt-logo-extra" src="/assets/images/logo_named_sml.png"/>
       </div>
       <div class="col-md-4">
-        <h1>Sign In to Portal</h1>
+        <h1>Sign-In to Portal</h1>
+        <h1></h1>
       </div>
     </div>
     <div class="col-md-12 prime-orange"> <!-- Lower section of page -->
+      <form>
+        <div class="row margin-top">
+          <div class="col-md-5"></div>
+          <div class="col-md-4">
+            <h4>Please enter...</h4>
+            <h5></h5>
+          </div>
+        </div>
+        <div class="row margin-top">
+          <div class="col-md-3"></div>
+          <div class="col-md-2">
+              <label class="txt-clr-white padding-top txt-alignment txt-apperance" for="Email">Email</label>
+          </div>
+          <div class="col-md-4">
+              <input type="Email" name="Email" #Email class="form-control" required autofocus />
+          </div>
+        </div>
+        <div class="row margin-top">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <label class="txt-clr-white padding-top txt-alignment txt-apperance" for="Password">Password</label>
+            </div>
+            <div class="col-md-4">
+                <input type="password" name="Password" #Password class="form-control" required autofocus />
+            </div>
+        </div>
+        <div class="row margin-top">
+          <div class="col-md-5"></div>
+          <div class="col-md-2 btn-alignment">
+            <h5></h5>
+              <button type="submit" class="button_look"
+                  (click)="authService.login(Email.value, Password.value)">
+                      Sign-In
+              </button>
+          </div>
+        </div>
+
+        <div class="row margin-top">
+          <h2></h2>
+          <div class="col-md-5"></div>
+          <div class="col-md-4">
+            <h4>Include these fields when signing up...</h4>
+            <h5></h5>
+          </div>
+        </div>
+
+        <div class="row margin-top">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <label class="txt-clr-white padding-top txt-alignment txt-apperance" for="FirstName">First Name</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="FirstName" #FirstName class="form-control" required autofocus />
+            </div>
+        </div>
+
+        <div class="row margin-top">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <label class="txt-clr-white padding-top txt-alignment txt-apperance" for="LastName">Last Name</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="LastName" #LastName class="form-control" required autofocus />
+            </div>
+        </div>
+
+        <div class="row margin-top">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <label class="txt-clr-white padding-top txt-alignment txt-apperance" for="PhoneNumber">Phone Number</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="PhoneNumber" #PhoneNumber class="form-control" required autofocus />
+            </div>
+        </div>
+
+        <div class="row margin-top">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <label class="txt-clr-white padding-top txt-alignment txt-apperance" for="city">City</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="city" #city class="form-control" required autofocus />
+            </div>
+        </div>
+
+        <div class="row margin-top">
+            <div class="col-md-5"></div>
+            <div class="col-md-2 btn-alignment">
+              <h5></h5>
+                <button type="submit" class="button_look"
+                    (click)="authService.register(Email.value, Password.value,
+                    FirstName.value,LastName.value,PhoneNumber.value,
+                    city.value)">
+                        Sign-Up
+                </button>
+            </div>
+        </div>
+    </form>
+
 
 
 
