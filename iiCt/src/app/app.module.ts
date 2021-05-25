@@ -23,6 +23,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { UserAuthserviceService } from './services/user-authservice.service';
+import { TeamComponent } from './about-me/team/team.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { UserAuthserviceService } from './services/user-authservice.service';
     PrivacyComponent,
     TermsComponent,
     StudiesComponent,
-    SignInComponent
+    SignInComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
