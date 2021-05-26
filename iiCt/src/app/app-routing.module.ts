@@ -9,6 +9,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
 import { ProjectWorkComponent } from './project-work/project-work.component';
 import { StudiesComponent } from './about-me/studies/studies.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { FAQComponent } from './faq/faq.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'sign-in',
     component: SignInComponent
+  },
+  {
+    path: 'faq',
+    component: FAQComponent
   },
   {
     path: '**',

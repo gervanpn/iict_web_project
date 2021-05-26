@@ -23,6 +23,9 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { UserAuthserviceService } from './services/user-authservice.service';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FAQComponent } from './faq/faq.component';
+
 
 
 @NgModule({
@@ -40,7 +43,8 @@ import { UserAuthserviceService } from './services/user-authservice.service';
     PrivacyComponent,
     TermsComponent,
     StudiesComponent,
-    SignInComponent
+    SignInComponent,
+    FAQComponent
   ],
   imports: [
     BrowserModule,
@@ -50,6 +54,7 @@ import { UserAuthserviceService } from './services/user-authservice.service';
     AngularFireAuthModule,
     AngularFireDatabaseModule,
     AngularFirestoreModule,
+    NgbModule,
   ],
   providers: [UserAuthserviceService],
   bootstrap: [AppComponent]

@@ -1,38 +1,41 @@
-<a ngbDropdown>
-  <a href (click)="(false)" class="term-margin-left prime-white" ngbDropdownToggle>
-     Terms of Service
-  </a>
-  <div ngbDropdownMenu class="drop-box" id="terms">
-      <div class="popup-box  prime-white">
-          <h3></h3>
-          <h2 class= "prime-orange term-heading">Terms of Service</h2>
-                  <h3></h3>
-                  <p class= "prime-white term-text">Please read these terms of service ("disclaimer")
-                      carefully before using [website] website (“website”, "service")
-                      operated by[name] ("us", 'we", "our").
-                      The content displayed on the website is the intellectual
-                      property of the [name].You may not reuse, republish, or reprint
-                      such content without our written consent.
-                      All information posted is merely for educational and
-                      informational purposes.It is not intended as a substitute for
-                      professional advice.</p>
-                      <p></p>
-                      <p class= "prime-white term-text">Should you
-                      decide to act upon any information on this website,
-                      you do so at your own risk.
-                      While the information on this website has been verified
-                      to the best of
-                      our abilities, we cannot guarantee that there are no
-                      mistakes or errors.
-                      We reserve the right to change this policy at any given time,
-                      of which you will be promptly updated. If you want to make sure
-                      that you
-                      are up to date with the latest changes, we advise you to
-                       frequently visit
-                      this page.
-                  </p>
-
-      </div>
-  </div>
-</a>
-
+<ng-template #content let-modal>
+    <div class="modal-header background-clr border-pink ">
+      <h2 class="modal-title txt-clr-pink term-heading"
+        id="modal-basic-title">
+        Terms of Service
+      </h2>
+      <button type="button" class="close"
+          aria-label="Close" (click)=
+          "modal.dismiss('Cross click')">
+        <span aria-hidden="true" class="txt-clr-blue"> × </span>
+      </button>
+    </div>
+    <div class="modal-body background-clr border-pink">
+      <p class= "txt-clr-lgray term-text">
+        At VARA Platforms , we are committed to providing our customers with the
+          best experience possible.  We are letting you know about recent updates to our Terms of Service.
+    </p>
+        <p></p>
+    <p class= "txt-clr-lgray term-text">
+      Please read these terms of service ("disclaimer") carefully before using [website] website (“website”, "service")
+      operated by[name] ("us", 'we", "our"). The content displayed on the website is the intellectual property of the [name].
+      You may not reuse, republish, or reprint such content without our written consent.
+      All information posted is merely for educational and informational purposes.
+      It is not intended as a substitute for professional advice.
+    </p>
+    <p></p>
+    <p class= "txt-clr-lgray term-text">
+      Should you decide to act upon any information on this website, you do so at your own risk. While the information on this
+      website has been verified to the best of our abilities, we cannot guarantee that there are no mistakes or errors.
+      We reserve the right to change this policy at any given time, of which you will be promptly updated.
+      If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
+    </p>
+    <p></p>
+    </div>
+  </ng-template>
+  
+  <button class="margin-left background-clr txt-clr-blue term-text"
+    (click)="open(content)">
+    Terms of Service
+  </button>
+  
