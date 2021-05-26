@@ -25,7 +25,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { UserAuthserviceService } from './services/user-authservice.service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FAQComponent } from './faq/faq.component';
-
+import { TeamComponent } from './about-me/team/team.component';
 
 
 @NgModule({
@@ -44,7 +44,8 @@ import { FAQComponent } from './faq/faq.component';
     TermsComponent,
     StudiesComponent,
     SignInComponent,
-    FAQComponent
+    FAQComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

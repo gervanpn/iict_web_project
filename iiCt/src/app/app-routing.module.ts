@@ -10,11 +10,16 @@ import { ProjectWorkComponent } from './project-work/project-work.component';
 import { StudiesComponent } from './about-me/studies/studies.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { FAQComponent } from './faq/faq.component';
+import { TeamComponent } from './about-me/team/team.component';
 
 const routes: Routes = [
   {
     path: 'about-me',
     component: AboutMeComponent
+  },
+  {
+    path: 'team',
+    component: TeamComponent
   },
   {
     path: 'company-profile',
