@@ -23,6 +23,8 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { UserAuthserviceService } from './services/user-authservice.service';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FAQComponent } from './faq/faq.component';
 import { TeamComponent } from './about-me/team/team.component';
 
 
@@ -42,6 +44,7 @@ import { TeamComponent } from './about-me/team/team.component';
     TermsComponent,
     StudiesComponent,
     SignInComponent,
+    FAQComponent,
     TeamComponent
   ],
   imports: [
@@ -52,6 +55,7 @@ import { TeamComponent } from './about-me/team/team.component';
     AngularFireAuthModule,
     AngularFireDatabaseModule,
     AngularFirestoreModule,
+    NgbModule,
   ],
   providers: [UserAuthserviceService],
   bootstrap: [AppComponent]

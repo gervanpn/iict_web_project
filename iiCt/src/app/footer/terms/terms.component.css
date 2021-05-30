@@ -1,0 +1,24 @@
+
+.dropdown-toggle::after {
+    content: none;
+  }
+  
+  .term-text {
+    font-size: 1.25rem;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .term-heading {
+    margin-left: 1 rem;
+  }
+  
+  .margin-left {
+    margin-left: 1.75rem;
+  }
+  
+  .close {
+  font-size: 2.5rem;
+  }
+  

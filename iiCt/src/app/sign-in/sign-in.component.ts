@@ -12,5 +12,10 @@ export class SignInComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  hide : boolean = true;
 
+  myFunction() {
+    this.hide = !this.hide;
+  }
 }
